@@ -1,0 +1,51 @@
+/*
+
+ ---> Understanding Units
+      - PX
+      - %
+      - VW , Vh (viewport)
+      - VMAX,VMIN 
+      - em, rem => 1 rem = 16px
+
+ ---> Layout Website
+      - absolute VS Flex
+
+ ---> Flexbox
+      - Display Flex
+      - aligning intems in x and y axis
+      - flex direction
+      - flex warap
+
+
+ ---> CSS Media Queries
+      - min height, min width
+      - min width, max width
+
+ Key points to keep in mind to make website responsive
+
+ 1. CSS Flexbox
+ 2. CSS Units
+ 3: Responsive Typography
+ 4: Mobile-First Approach
+ 5: Flexible Images and Media
+
+*/
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(16, 16, 16);
+}
+
+#box{
+     background-color: mediumslateblue;
+     width: 80%;
+     height: 50%;
+
+}
+ @media (max-width: 600px) {
+      #box{
+          background-color: lightcoral;
+          border-radius: 50%;
+     }
+ }

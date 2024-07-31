@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/*Position Absolute*/
+
+/*#main{
+
+
+    width: 60%;
+    height: 80%;
+    background-color: aquamarine;
+    
+}
+
+.box1{
+    width: 100px;
+    height: 120px;
+    background-color: antiquewhite;
+    position: absolute;
+    
+}
+
+.box2{
+    width: 110px;
+    height: 90px;
+    background-color: blueviolet;
+    
+    position: absolute;
+}
+
+.box3{
+    width: 130px;
+    height: 110px;
+    background-color: darkblue;
+    position: absolute;
+}*/
+
+
+/*Position  Relative*/
+/*#main{
+    width: 30%;
+    height: 50%;
+    background-color: aquamarine;
+    position: relative;
+    
+}
+  /*If We give position Absolute to any div By Default its a Position Relative*/
+/*.box1{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 50%;
+    
+}*/
+
+
+
+/*Flex BOX*/
+#main{
+    width: 60%;
+    height: 80%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: end; /*For Height*/
+    align-items: center; /*For Height*/
+    
+}
+
+.box1{
+    width: 100px;
+    height: 120px;
+    background-color: antiquewhite; 
+}
+
+.box2{
+    width: 110px;
+    height: 90px;
+    background-color: blueviolet;
+}
+
+.box3{
+    width: 130px;
+    height: 110px;
+    background-color: darkblue;
+}
+
